@@ -18,3 +18,8 @@ Today we're going to be playing with photos. A LOT. You'll spend some time picki
 * The first is to center the square images within each rectangle. Do this for the landscape row(s). If your particular grid solution already did this for you, you're done!
 * The second solution is to streeeeeetch the square images. Do this for the portrait row(s). Again, if your particular grid solution already did this for you, you're done!
 * Now for the better solution: put the squares all in their own rows or columns, and leave the rectangles in their respective rows and columns. You will very likely have to do a fair bit of work to make this happen, but it'll look _real nice_. Think about what portion of the container each row and column should take up. Then make it so!
+
+### Stretch Goals
+
+* Got a custom design that works well with your pictures? Let's ruin it. Turn every photo 90 degrees using CSS's "transform" property, paired with the "rotate" value. (Look it up if you don't know it! It's cool!) You should do this with a class on each image, NOT by changing each one individually, NOR by rotating the whole grid--that last solution is toooooo easy... though you can try it for fun! Now rejigger your CSS to line up as well as you can with the new image orientations.
+* Make sure you've committed. Now! Switch things back 90 degrees to where they were before, but NOT by changing the CSS. How will you do this? Well, you already have the code, right? You can ROLL BACK to the previous commit. When you're done, your project will be _rewound_ to its previous state. Ladies and gentlemen, I give you: git.
